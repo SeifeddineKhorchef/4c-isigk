@@ -1,28 +1,20 @@
 // import images
 import Hero_person from "./assets/images/Hero/person.png";
-
-import figma from "./assets/images/Skills/figma.png";
-import sketch from "./assets/images/Skills/sketch.png";
-import ps from "./assets/images/Skills/ps.png";
-import reactjs from "./assets/images/Skills/react.png";
-import nodejs from "./assets/images/Skills/node.png";
-import python from "./assets/images/Skills/python.png";
-
 import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
 import services_logo3 from "./assets/images/Services/logo3.png";
 
-import project1 from "./assets/images/projects/img1.jpg";
-import project2 from "./assets/images/projects/img2.jpg";
-import project3 from "./assets/images/projects/img3.jpg";
-import project4 from "./assets/images/projects/img4.jpg";
-import project5 from "./assets/images/projects/img5.jpg";
-import project6 from "./assets/images/projects/img6.jpg";
-import project8 from "./assets/images/projects/img8.jpg";
-import project9 from "./assets/images/projects/img9.jpg";
-import project10 from "./assets/images/projects/img10.jpg";
-import project11 from "./assets/images/projects/img11.jpg";
-import person_project from "./assets/images/projects/person.png";
+import project1 from "./assets/images/Projects/img1.jpg";
+import project2 from "./assets/images/Projects/img2.jpg";
+import project3 from "./assets/images/Projects/img3.jpg";
+import project4 from "./assets/images/Projects/img4.jpg";
+import project5 from "./assets/images/Projects/img5.jpg";
+import project6 from "./assets/images/Projects/img6.jpg";
+import project8 from "./assets/images/Projects/img8.jpg";
+import project9 from "./assets/images/Projects/img9.jpg";
+import project10 from "./assets/images/Projects/img10.jpg";
+import project11 from "./assets/images/Projects/img11.jpg";
+import person_project from "./assets/images/Projects/person.png";
 
 import avatar1 from "./assets/images/Testimonials/avatar1.png";
 import avatar2 from "./assets/images/Testimonials/avatar2.png";
