@@ -12,9 +12,16 @@ import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
 import services_logo3 from "./assets/images/Services/logo3.png";
 
-import project1 from "./assets/images/projects/img1.png";
-import project2 from "./assets/images/projects/img2.png";
-import project3 from "./assets/images/projects/img3.png";
+import project1 from "./assets/images/projects/img1.jpg";
+import project2 from "./assets/images/projects/img2.jpg";
+import project3 from "./assets/images/projects/img3.jpg";
+import project4 from "./assets/images/projects/img4.jpg";
+import project5 from "./assets/images/projects/img5.jpg";
+import project6 from "./assets/images/projects/img6.jpg";
+import project8 from "./assets/images/projects/img8.jpg";
+import project9 from "./assets/images/projects/img9.jpg";
+import project10 from "./assets/images/projects/img10.jpg";
+import project11 from "./assets/images/projects/img11.jpg";
 import person_project from "./assets/images/projects/person.png";
 
 import avatar1 from "./assets/images/Testimonials/avatar1.png";
@@ -78,145 +85,102 @@ export const content = {
       },
     ],
   },
-  skills: {
-    title: "Skills",
-    subtitle: "MY TOP SKILLS",
-    skills_content: [
-      {
-        name: "Adobe Premier",
-        para: "Montage vidéo dynamique et professionnel avec Adobe Premiere",
-        logo: figma,
-      },
-      {
-        name: "Node js",
-        para: "Construction d'applications côté serveur avec Node.js",
-        logo: nodejs,
-      },
-      {
-        name: "Adobe Photoshop",
-        para: "Création de designs visuellement captivants avec Photoshop",
-        logo: ps,
-      },
-      {
-        name: "React js",
-        para: "Développement d'applications web réactives avec React.js",
-        logo: reactjs,
-      },
-      {
-        name: "wordpress",
-        para: "Développement de sites web personnalisés avec WordPress",
-        logo: sketch,
-      },
-      {
-        name: "Développement",
-        para: "Développement d'applications web performantes et conviviales",
-        logo: python,
-      },
-    ],
-    icon: MdArrowForward,
-  },
+ 
   services: {
     title: "Services",
     subtitle: "WHAT I OFFER",
     service_content: [
       {
-        title: "Digital Marketing",
-        para: "Stratégies de marketing numérique personnalisées pour accroître la visibilité en ligne",
+        title: "Hard Skills",
+        para: " Nos services de développement des compétences techniques offrent des programmes structurés pour acquérir des aptitudes spécifiques nécessaires dans le monde professionnel",
         logo: services_logo1,
       },
       {
-        title: "Project Mangement",
-        para: "Gestion efficace des projets de bout en bout",
+        title: "Soft Skills",
+        para: " Optez pour nos services de renforcement des compétences comportementales pour améliorer votre communication, votre travail d'équipe et votre capacité d'adaptation. ",
         logo: services_logo2,
       },
       {
-        title: "Développement",
-        para: "Développement d'applications web et mobiles performantes ",
+        title: "Organisation d'Événements",
+        para: " Confiez-nous l'organisation de vos événements professionnels. Que ce soit des conférences, des séminaires, des ateliers ou des réunions sociales, nous prenons en charge tous les détails logistiques pour créer des expériences mémorables. ",
         logo: services_logo3,
       },
       {
-        title: "Graphic Desing",
-        para: "Conception créative et attrayante d'éléments visuels",
+        title: " Formation et de Cours ",
+        para: " Explorez nos services de formation et de cours pour acquérir des connaissances approfondies dans des domaines spécifiques. Que ce soit à travers des cours en personne, des formations en ligne interactives ou des ateliers pratiques",
         logo: services_logo3,
       },
     ],
   },
   Projects: {
-    title: "Projects",
-    subtitle: "MY CREATION",
+    title: "Nos événements",
     image: person_project,
     project_content: [
       {
-        title: "Inspired.Tn",
+        title: "Formation Design thinking",
         image: project1,
       },
       {
-        title: "Portfolio React",
+        title: "Confiance en soi",
         image: project2,
       },
       {
-        title: "Crud App",
+        title: "Introduction PowerBi",
         image: project3,
       },
+      {
+        title: "Self Marketing",
+        image: project4,
+      },
+      {
+        title: "Métodologie de conception",
+        image: project5,
+      },
+      {
+        title: "Comptable face a la digitalisation",
+        image: project6,
+      },
+     
+      {
+        title: "Be a good presenter",
+        image: project8,
+      },
+      {
+        title: "Job interview simulation",
+        image: project9,
+      },
+      {
+        title: "Latex",
+        image: project10,
+      },
+      {
+        title: "initiation à la creativité",
+        image: project11,
+      },
     ],
   },
-  Testimonials: {
-    title: "Testimonials",
-    subtitle: "MY CLIENT REVIEWS",
-    testimonials_content: [
-      {
-        review:
-          "“Ya3tikom essa7a, formation heyla, très enrichissante, avec une formatrice belha wassa3 => a good success recipe ! can't wait for the next challenge ! keep shining ”",
-        img: avatar1,
-        name: "Karim Dellagi",
-      },
-      {
-        review:
-          "“yaatikom saha nous sommes continuellement impressionnés par les résultats que vous réalisés !Merci d'apporter un sourire à tous les membres de l'équipe aamalna jaw w taalamna barsha 7ajet jdod ❤ Je vous remercie sincèrement💞💞”",
-        img: avatar2,
-        name: "Rihem Dahbi",
-      },
-      {
-        review:
-          "“Merci beaucoup Seifeddine Khorchef  pour  cette formation a vraiment répondu à mes attentes ....  formation tayra l équipe me7lehom  3malna jaw w t3alemna barcha 7ajet  ye3tik esa7a ♥️💯💯💯👏👏👏          ”",
-        img: avatar3,
-        name: "Rabiaa Abdaoui",
-      },
-      {
-        review:
-          "“disponibilité avant tout, formatrice plus que compétente ❤️ saif toujours présent pour tous les étudiants qui traîne un peux.  Je recommande vivement et fortement surtout pour le rapport QUALITÉ => Prix  bonne continuation pour toute l'équipe ❤️”",
-        img: avatar4,
-        name: "Ayman Brahmi",
-      },
-    ],
-  },
+
   Hireme: {
-    title: "Hire Me",
-    subtitle: "FOR YOUR PROJECTS",
+    title: "Quote for you",
     image1: Hireme_person,
     image2: Hireme_person2,
-    para: "Optimisez votre présence en ligne avec mes services de marketing numérique, gestion de projet, conception graphique et développement. Contactez-moi dès maintenant pour un succès assuré !",
-    btnText: "Hire Me",
+    para: "Success is Not Final, Failure is Not Fatal: it is the Courage to Continue that Counts.",
   },
   Contact: {
-    title: "Contect Me",
-    subtitle: "GET IN TOUCH",
+    title: "Contacter nous",
+   
     social_media: [
       {
-        text: "saifedinekhorchef123@gmail.com",
+        text: "sahbinakhli@yahoo.fr",
         icon: GrMail,
         link: "saifedinekhorchef123@gmail.com",
       },
       {
-        text: "+216 28 679 178 ",
+        text: "+216 55 484 255 ",
         icon: MdCall,
-        link: "https://wa.me/1234567890",
+        link: "",
       },
-      {
-        text: "seifeddine khorchef",
-        icon: BsInstagram,
-        link: "https://www.instagram.com/Seifeddine khorchef/",
-      },
+    
     ],
   },
   Footer: {

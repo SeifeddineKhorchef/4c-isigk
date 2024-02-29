@@ -4,12 +4,12 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.css";
 
 // Import your images
-import image1 from "../assets/images/gallery/image1.jpg";
-import image2 from "../assets/images/gallery/image2.jpg";
-import image3 from "../assets/images/gallery/image3.jpg";
-import image4 from "../assets/images/gallery/image4.jpg";
-import image5 from "../assets/images/gallery/image5.jpg";
-import image6 from "../assets/images/gallery/image6.jpg";
+import image1 from "../assets/images/Gallery/image1.jpg";
+import image2 from "../assets/images/Gallery/image2.jpg";
+import image3 from "../assets/images/Gallery/image3.jpg";
+import image4 from "../assets/images/Gallery/image4.jpg";
+import image5 from "../assets/images/Gallery/image5.jpg";
+import image6 from "../assets/images/Gallery/image6.jpg";
 // ... import more images
 
 SwiperCore.use([Navigation, Pagination, Autoplay]);
@@ -48,7 +48,7 @@ const Gallery = () => {
   return (
     <div className="bg-gray-100">
       <div className="container mx-auto py-16">
-        <h2 className="text-5xl font-Inria font-bold mb-8">Gallery</h2>
+        <h2 className="text-5xl font-Inria font-bold mb-8"> galerie</h2>
 
         <Swiper
           spaceBetween={30}

@@ -135,7 +135,7 @@ const Team = () => {
   return (
     <div className="bg-gray-100">
       <div className="container mx-auto py-16 ">
-        <h2 className="text-5xl font-Inria font-bold mb-8">Our Team</h2>
+        <h2 className="text-5xl font-Inria font-bold mb-8">L'equipe</h2>
 
         <Swiper
           spaceBetween={30}

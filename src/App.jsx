@@ -33,7 +33,6 @@ const App = () => {
       <Service />
        <Gallery/>
       <Projects />
-      <Testimonials />
       <Hireme />
       <Contact />
       <footer className="p-3 text-center">
